@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Patterns.Structural.DecoratorPattern
+namespace Patterns.Behavioral.StatePattern
 {
-    class DecoratorPattern
+    class StatePattern
     {
 	    public static void Test()
 	    {
@@ -14,21 +14,4 @@ namespace Patterns.Structural.DecoratorPattern
             
 	    }
     }
-
-
-    interface IPizza
-    {
-        decimal Cost { get;}
-
-
-    }
-
-    class Pizza
-    {
-
-    }
-
-
-
-
 }
