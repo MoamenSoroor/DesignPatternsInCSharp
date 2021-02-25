@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{96E829F3-D418-4DAC-AC66-2885CB0976C3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{5A610BAF-0FBF-4B24-B1D1-0D5244CE6A6C}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96E829F3-D418-4DAC-AC66-2885CB0976C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96E829F3-D418-4DAC-AC66-2885CB0976C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96E829F3-D418-4DAC-AC66-2885CB0976C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96E829F3-D418-4DAC-AC66-2885CB0976C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5A610BAF-0FBF-4B24-B1D1-0D5244CE6A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A610BAF-0FBF-4B24-B1D1-0D5244CE6A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A610BAF-0FBF-4B24-B1D1-0D5244CE6A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
