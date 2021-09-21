@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Patterns.Behavioral.CommandPattern
 {
-    class CommandPattern
-    {
-	    public static void Test()
-	    {
-		    // TODO!
-            
-	    }
-    }
+	class CommandPattern
+	{
+		public static void Test()
+		{
+			// TODO!
+			
+		}
+	}
 }

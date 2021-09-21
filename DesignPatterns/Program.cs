@@ -14,6 +14,8 @@ using Patterns.Creational.SimpleFactoryPattern;
 using Patterns.Creational.AbstractFactoryPattern;
 using Patterns.Behavioral.VisitorPattern;
 using Patterns.Behavioral.RuleBasedEnginePattern;
+using Patterns.Behavioral.TemplateMethodPattern;
+using Patterns.Structural.ProxyPattern;
 
 namespace Patterns
 {
@@ -21,18 +23,27 @@ namespace Patterns
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello Design Patterns!");
+			Console.WriteLine(" ------------------- Design Patterns Tester! -------------------");
 
-			//DecoratorPattern.Test();
-			//StrategyPattern.Test();
+			// Creational Patterns
+			// -------------------------------------------------
 			//SimpleFactoryPattern.Test();
 			//FactoryMethodPattern.Test();
 			//AbstractFactoryPattern.Test();
 
 
+			// Structural Patterns
+			// -------------------------------------------------
+			//DecoratorPattern.Test();
+			CachingProxy.Test();
+
+
 			// Behavioral patterns
+			// -------------------------------------------------
+			//StrategyPattern.Test();
+			//TemplateMethodPattern.Test();
 			//VisitorPattern.Test();
-			RuleBasedEnginePattern.Test();
+			//RuleBasedEnginePattern.Test();
 
 		}
 	}

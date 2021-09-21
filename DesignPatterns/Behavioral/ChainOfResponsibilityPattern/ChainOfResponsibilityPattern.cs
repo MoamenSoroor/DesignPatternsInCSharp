@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Patterns.Behavioral.ChainOfResponsibilityPattern
 {
-    class ChainOfResponsibilityPattern
-    {
-	    public static void Test()
-	    {
-		    // TODO!
-            
-	    }
-    }
+	class ChainOfResponsibilityPattern
+	{
+		public static void Test()
+		{
+			// TODO!
+			
+		}
+	}
 }
