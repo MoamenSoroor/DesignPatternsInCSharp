@@ -2,7 +2,7 @@
 
 namespace CommandPattern
 {
-    public class Radio
+    public class Radio //: IOnBehavoir
     {
         private int volume = 0;
         private int channel = 1;

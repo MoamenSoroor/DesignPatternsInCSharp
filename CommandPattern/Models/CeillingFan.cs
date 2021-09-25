@@ -6,6 +6,8 @@
     {
         private  FanState currentState;
 
+        private int fanNumer;
+
         public FanState CurrentState => currentState;
 
         public CeillingFan()

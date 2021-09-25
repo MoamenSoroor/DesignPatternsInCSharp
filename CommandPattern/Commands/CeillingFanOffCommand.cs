@@ -15,6 +15,7 @@
         public void Execute()
         {
             previousState = fan.CurrentState;
+            
             fan.Off();
         }
 

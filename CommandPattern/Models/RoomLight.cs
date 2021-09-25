@@ -2,8 +2,15 @@
 
 namespace CommandPattern
 {
-    public class RoomLight
+    //public interface IOnBehavoir
+    //{
+    //    void On();
+    //    void Undo();
+    //}
+
+    public class RoomLight //: IOnBehavoir
     {
+        // 
         public void On()
         {
             Console.WriteLine("RoomLight On");
@@ -14,6 +21,10 @@ namespace CommandPattern
             Console.WriteLine("RoomLight Off");
         }
 
+        public void Undo()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

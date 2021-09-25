@@ -4,6 +4,7 @@
     public class SimpleRemoteControl
     {
         private ICommand onSlot;
+
         private ICommand offSlot;
 
         public SimpleRemoteControl()
@@ -12,6 +13,8 @@
             offSlot = new NullCommand();
 
         }
+
+
 
         public void SetCommands(ICommand onCommand,ICommand offCommand)
         {

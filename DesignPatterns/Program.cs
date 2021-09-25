@@ -16,6 +16,7 @@ using Patterns.Behavioral.VisitorPattern;
 using Patterns.Behavioral.RuleBasedEnginePattern;
 using Patterns.Behavioral.TemplateMethodPattern;
 using Patterns.Structural.ProxyPattern;
+using Patterns.Behavioral.CommandPattern;
 
 namespace Patterns
 {
@@ -35,7 +36,7 @@ namespace Patterns
 			// Structural Patterns
 			// -------------------------------------------------
 			//DecoratorPattern.Test();
-			CachingProxy.Test();
+			//CachingProxy.Test();
 
 
 			// Behavioral patterns
@@ -44,6 +45,7 @@ namespace Patterns
 			//TemplateMethodPattern.Test();
 			//VisitorPattern.Test();
 			//RuleBasedEnginePattern.Test();
+			CommandPattern.Test();
 
 		}
 	}
